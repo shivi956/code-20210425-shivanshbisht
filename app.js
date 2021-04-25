@@ -17,6 +17,6 @@ mongoose.connect(process.env.DB_CONNECTION, {
 
 );
 //----------------------------Listening on a particular port---------------------------------//
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 5000;
 app.listen(port);
 console.log('connected to ' + port);
